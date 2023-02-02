@@ -7,7 +7,7 @@ export default function ScrollAnimationWrapper({children, className, ...props}) 
       whileInView="onscreen"
       viewport={{ once: true, amount: 0.8 }}
       className={className}
-      {...props}
+      {...props} 
     >
       {children}
     </motion.div>

@@ -101,22 +101,22 @@ const Testimoni = ({
                     alt="Icon People"
                   />
                   <div className="flex flex-col ml-5 text-left">
-                    <p className="text-lg text-black-600 capitalize">
+                    <p className="text-lg text-white-500 capitalize">
                       {listTestimonis.name}
                     </p>
-                    <p className="text-sm text-black-500 capitalize">
+                    <p className="text-sm text-gray-500 capitalize">
                       {listTestimonis.city},{listTestimonis.country}
                     </p>
                   </div>
                 </div>
                 <div className="flex flex-none items-center ml-auto order-1 xl:order-2">
-                  <p className="text-sm">{listTestimonis.rating}</p>
+                  <p className="text-sm text-gray-100">{listTestimonis.rating}</p>
                   <span className="flex ml-4">
                     <Stars className="h-4 w-4" />
                   </span>
                 </div>
               </div>
-              <p className="mt-5 text-left">“{listTestimonis.testimoni}”.</p>
+              <p className="mt-5 text-left text-gray-400">“{listTestimonis.testimoni}”.</p>
             </div>
           </div>
         ))}
