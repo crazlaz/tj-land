@@ -17,7 +17,7 @@ const Header = () => {
     <>
       <header
         className={
-          "fixed top-0 w-full  z-30 bg-black transition-all " +
+          "fixed top-0 w-full  z-30 bg-black-500 transition-all " +
           (scrollActive ? " shadow-md pt-0" : " pt-4")
         }
       >
@@ -25,7 +25,7 @@ const Header = () => {
           <div className="col-start-1 col-end-2 flex items-center">
             <LogoVPN className="h-8 w-auto" />
           </div>
-          <ul className="hidden lg:flex col-start-4 col-end-8 text-black-500  items-center">
+          <ul className="hidden lg:flex col-start-4 col-end-8 text-white-500  items-center">
             <LinkScroll
               activeClass="active"
               to="about"
@@ -39,7 +39,7 @@ const Header = () => {
                 "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
                 (activeLink === "about"
                   ? " text-orange-500 animation-active "
-                  : " text-black-500 hover:text-orange-500 a")
+                  : " text-white-500 hover:text-orange-500 a")
               }
             >
               About
@@ -57,7 +57,7 @@ const Header = () => {
                 "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
                 (activeLink === "feature"
                   ? " text-orange-500 animation-active "
-                  : " text-black-500 hover:text-orange-500 ")
+                  : " text-white-500 hover:text-orange-500 ")
               }
             >
               Feature
@@ -75,7 +75,7 @@ const Header = () => {
                 "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
                 (activeLink === "pricing"
                   ? " text-orange-500 animation-active "
-                  : " text-black-500 hover:text-orange-500 ")
+                  : " text-white-500 hover:text-orange-500 ")
               }
             >
               Pricing
@@ -93,7 +93,7 @@ const Header = () => {
                 "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
                 (activeLink === "testimoni"
                   ? " text-orange-500 animation-active "
-                  : " text-black-500 hover:text-orange-500 ")
+                  : " text-white-500 hover:text-orange-500 ")
               }
             >
               Testimonial
@@ -101,10 +101,11 @@ const Header = () => {
           </ul>
           <div className="col-start-10 col-end-12 font-medium flex justify-end items-center">
             <Link href="/">
-              <a className="text-black-600 mx-2 sm:mx-4 capitalize tracking-wide hover:text-orange-500 transition-all">
+              <a className="text-white-500 mx-2 sm:mx-4 capitalize tracking-wide hover:text-orange-500 transition-all">
                   Sign In
               </a>
             </Link>
+
             <ButtonOutline>Sign Up</ButtonOutline>
           </div>
         </nav>
@@ -113,7 +114,7 @@ const Header = () => {
 
       <nav className="fixed lg:hidden bottom-0 left-0 right-0 z-20 px-4 sm:px-8 shadow-t ">
         <div className="bg-black sm:px-3">
-          <ul className="flex w-full justify-between items-center text-black-500">
+          <ul className="flex w-full justify-between items-center text-white-500">
             <LinkScroll
               activeClass="active"
               to="about"

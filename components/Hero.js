@@ -39,7 +39,7 @@ const Hero = ({
               <h1 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-black-600 leading-normal">
                 Learn anything easily with <strong>BrainStorm</strong>.
               </h1>
-              <p className="text-black-500 mt-4 mb-6">
+              <p className="text-white-500 mt-4 mb-6">
                 Provide's a social network for all your needs from learning advance new topics or generating extra income teaching your skills.
               </p>
               <ButtonPrimary>Get Started</ButtonPrimary>
@@ -60,7 +60,7 @@ const Hero = ({
       </ScrollAnimationWrapper>
       <div className="relative w-full flex">
         <ScrollAnimationWrapper
-          className="rounded-lg w-full grid grid-flow-row sm:grid-flow-row grid-cols-1 sm:grid-cols-3 py-9 divide-y-2 sm:divide-y-0 sm:divide-x-2 divide-gray-100 bg-black z-10">
+          className="rounded-lg w-full grid grid-flow-row sm:grid-flow-row grid-cols-1 sm:grid-cols-3 py-9 divide-y-2 sm:divide-y-0 sm:divide-x-2 divide-gray-100 bg-black-500 z-10">
           {listUser.map((listUsers, index) => (
             <motion.div
               className="flex items-center justify-start sm:justify-center py-4 sm:py-6 w-8/12 px-4 sm:w-auto mx-auto sm:mx-0"
@@ -76,7 +76,7 @@ const Hero = ({
                   <p className="text-xl text-black-600 font-bold">
                     {listUsers.number}+
                   </p>
-                  <p className="text-lg text-black-500">{listUsers.name}</p>
+                  <p className="text-lg text-white-500">{listUsers.name}</p>
                 </div>
               </div>
             </motion.div>
