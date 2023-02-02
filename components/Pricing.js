@@ -21,22 +21,22 @@ const Pricing = () => {
           <ScrollAnimationWrapper>
             <motion.h3
               variants={scrollAnimation}
-              className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-relaxed"
+              className="text-2xl sm:text-3xl lg:text-4xl font-medium text-red-500 leading-relaxed"
             >
               Check out our plans
             </motion.h3>
             <motion.p
               variants={scrollAnimation}
-              className="leading-normal w-10/12 sm:w-7/12 lg:w-6/12 mx-auto my-2 text-center"
+              className="leading-normal w-10/12 sm:w-7/12 text-white-500 lg:w-6/12 mx-auto my-2 text-center"
             >
               Its your choice to be a teacher on weekdays and student on weekends
             </motion.p>
           </ScrollAnimationWrapper>
-          <div className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-3 gap-4 lg:gap-12 py-8 lg:py-12 px-6 sm:px-0 lg:px-6">
-            <ScrollAnimationWrapper className="flex justify-center">
+          <div className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-3 gap-4  lg:gap-12 py-8 lg:py-12 px-6 sm:px-0 lg:px-6">
+            <ScrollAnimationWrapper className="flex justify-center ">
               <motion.div
                 variants={scrollAnimation}
-                className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl py-4 px-6 lg:px-12 xl:px-20"
+                className="flex flex-col justify-center items-center border-2 bg- border-gray-500 rounded-xl py-4 px-6 lg:px-12 xl:px-20"
                 whileHover={{
                   scale : 1.1,
                   transition: {
@@ -52,10 +52,10 @@ const Pricing = () => {
                     alt="Student Plan"
                   />
                 </div>
-                <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
+                <p className="text-lg text-white-500 font-medium capitalize my-2 sm:my-7">
                   Student's
                 </p>
-                <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
+                <ul className="flex flex-col text-white-500 list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
                   <li className="relative check custom-list my-2">
                     Unlimited Bandwitch
                   </li>
@@ -93,10 +93,10 @@ const Pricing = () => {
                   alt="Teacher Plan"
                 />
               </div>
-              <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
+              <p className="text-lg text-white-500 font-medium capitalize my-2 sm:my-7">
                 Teacher's{" "}
               </p>
-              <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
+              <ul className="flex flex-col  text-white-500 list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
                 <li className="relative check custom-list my-2">
                   Unlimited Bandwitch
                 </li>
@@ -137,10 +137,10 @@ const Pricing = () => {
                   alt="Both Plan"
                 />
               </div>
-              <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
+              <p className="text-lg text-white-500 font-medium capitalize my-2 sm:my-7">
                 Both{" "}
               </p>
-              <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
+              <ul className="flex flex-col  text-white-500 list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
                 <li className="relative check custom-list my-2">
                   Unlimited Bandwitch
                 </li>
@@ -171,16 +171,16 @@ const Pricing = () => {
           <ScrollAnimationWrapper>
             <motion.h3
               variants={scrollAnimation}
-              className="text-2xl sm:text-3xl lg:text-4xl font-medium text-white-500 leading-relaxed w-9/12 sm:w-6/12 lg:w-4/12 mx-auto">
+              className="text-2xl sm:text-3xl  lg:text-4xl font-medium text-white-500 leading-relaxed w-9/12 sm:w-6/12 lg:w-4/12 mx-auto">
               Huge Global Network of Teacher's{" "}
             </motion.h3>
-            <motion.p className="leading-normal text-gray-500  mx-auto my-2 w-10/12 sm:w-7/12 lg:w-6/12" variants={scrollAnimation}>
+            <motion.p className="leading-normal text-white-500  mx-auto my-2 w-10/12 sm:w-7/12 lg:w-6/12" variants={scrollAnimation}>
               If it is learning how to code or learning how to sow BrainStorm has you covered with passionate instructors!
             </motion.p>
           </ScrollAnimationWrapper>
           <ScrollAnimationWrapper>
             <motion.div className="py-12 w-full px-8 mt-16" variants={scrollAnimation}> 
-              <Maps className="w-full h-auto" />
+              <Maps className="w-full h-auto " />
             </motion.div>
           </ScrollAnimationWrapper>
          
@@ -194,7 +194,7 @@ const Pricing = () => {
             </motion.h3>
             <motion.p
               variants={scrollAnimation}
-              className="leading-normal mx-auto text-gray-500 mb-2 mt-4 w-10/12 sm:w-7/12 lg:w-6/12"
+              className="leading-normal mx-auto text-white-500 mb-2 mt-4 w-10/12 sm:w-7/12 lg:w-6/12"
             >
               These are the stories of our customers who have joined us to go on and learn new things and make new connections!
             </motion.p>
@@ -204,7 +204,7 @@ const Pricing = () => {
               <Testimoni />
             </motion.div>
           </ScrollAnimationWrapper>
-          <ScrollAnimationWrapper className="relative w-full mt-16 ">
+          <ScrollAnimationWrapper className="relative w-full mt-16  ">
             <motion.div variants={scrollAnimation} custom={{duration: 3}}>
               <div className="absolute rounded-xl  py-8 sm:py-14 px-6 sm:px-12 lg:px-16 w-full flex flex-col sm:flex-row justify-between items-center z-10 bg-black-500">
                 <div className="flex flex-col text-left w-10/12 sm:w-7/12 lg:w-5/12 mb-6 sm:mb-0">
@@ -217,6 +217,7 @@ const Pricing = () => {
                   <p>Subscribe now your next class awaits!</p>
                 </div>
                 <input
+               
           placeholder="bobloblaw@gmail.com"
           type="email"
           autoComplete="email"
