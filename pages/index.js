@@ -8,11 +8,13 @@ export default function Home() {
   return (
     <>
       <SeoHead title='BrainStorm Learning Socially' />
+      <div className="bg-black-600">
       <Layout >
         <Hero />
         <Feature />
         <Pricing />
       </Layout>
+      </div>
     </>
   );
 }
