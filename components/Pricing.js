@@ -13,7 +13,7 @@ const Pricing = () => {
 
   return (
     <div
-      className="bg-gradient-to-b from-black-500 to-black-600 w-full py-14"
+      className="bg-gradient-to-b from-black-600 to-black-600 w-full py-14"
       id="pricing"
     >
       <div className="max-w-screen-xl  px-6 sm:px-8 lg:px-16 mx-auto flex flex-col w-full text-center justify-center">
