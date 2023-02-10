@@ -18,10 +18,10 @@ const Header = () => {
       <header
         className={
           "fixed top-0 w-full  z-30 bg-black-600 transition-all " +
-          (scrollActive ? " shadow-md pt-0" : " pt-4")
+          (scrollActive ? " shadow-md pt-0" : " pb-12")
         }
       >
-        <nav className="max-w-screen-xl px-6 sm:px-8 lg:px-16 mx-auto grid grid-flow-col py-3 sm:py-4">
+        <nav className="max-w-screen-xl bg-black-600 px-6 sm:px-8 lg:px-16 mx-auto grid grid-flow-col py-3 sm:py-4">
           <div className="col-start-1 col-end-2 flex items-center">
             <LogoVPN className="h-12 w-auto" />
           </div>
@@ -36,7 +36,7 @@ const Header = () => {
                 setActiveLink("about");
               }}
               className={
-                "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
+                "px-4 py-2 mx-2 cursor-pointer bg-black-600 animation-hover inline-block relative" +
                 (activeLink === "about"
                   ? " text-orange-500 animation-active "
                   : " text-white-500 hover:text-orange-500 a")

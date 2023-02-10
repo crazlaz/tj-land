@@ -2,7 +2,7 @@ import {motion} from "framer-motion";
 
 export default function ScrollAnimationWrapper({children, className, ...props}) {
   return (
-    <div >
+    <div className="bg-black-600" >
     <motion.div
       initial="offscreen"
       whileInView="onscreen"

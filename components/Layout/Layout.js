@@ -5,10 +5,13 @@ import Header from "./Header";
 const Layout = ({ children }) => {
   return (
     <>
+    <div className="bg-black-600">
       <Header />
       {children}
       <Footer />
+      </div>
     </>
+
   );
 };
 
